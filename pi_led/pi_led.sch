@@ -1,33 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:pi_led-cache
 EELAYER 25 0
 EELAYER END
@@ -108,12 +79,12 @@ GPIO4
 $Comp
 L GND #PWR03
 U 1 1 55CE5B82
-P 2350 3700
-F 0 "#PWR03" H 2350 3450 50  0001 C CNN
-F 1 "GND" H 2350 3550 50  0000 C CNN
-F 2 "" H 2350 3700 60  0000 C CNN
-F 3 "" H 2350 3700 60  0000 C CNN
-	1    2350 3700
+P 2350 3650
+F 0 "#PWR03" H 2350 3400 50  0001 C CNN
+F 1 "GND" H 2350 3500 50  0000 C CNN
+F 2 "" H 2350 3650 60  0000 C CNN
+F 3 "" H 2350 3650 60  0000 C CNN
+	1    2350 3650
 	1    0    0    -1  
 $EndComp
 Connection ~ 4500 2600
@@ -318,18 +289,14 @@ F 3 "" H 4800 2600 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	4500 2600 4800 2600
-NoConn ~ 3000 3450
 NoConn ~ 3000 3550
 NoConn ~ 3000 3650
 NoConn ~ 3000 3750
-NoConn ~ 3000 3850
 NoConn ~ 3000 3950
 NoConn ~ 3000 4050
-NoConn ~ 3000 4150
 NoConn ~ 3000 4250
 NoConn ~ 3000 4350
 NoConn ~ 3000 4450
-NoConn ~ 2500 4450
 NoConn ~ 2500 4350
 NoConn ~ 2500 4250
 NoConn ~ 2500 4150
@@ -338,8 +305,6 @@ NoConn ~ 2500 3950
 NoConn ~ 2500 3850
 NoConn ~ 2500 3750
 NoConn ~ 2500 3250
-Wire Wire Line
-	2350 3700 2350 3650
 Wire Wire Line
 	2350 3650 2500 3650
 NoConn ~ 3000 3250
@@ -361,8 +326,84 @@ NoConn ~ 2500 4750
 NoConn ~ 2500 4850
 NoConn ~ 2500 4950
 NoConn ~ 3000 4950
-NoConn ~ 3000 4850
 NoConn ~ 3000 4750
-NoConn ~ 3000 4650
 NoConn ~ 3000 4550
+$Comp
+L GND #PWR?
+U 1 1 55CF715D
+P 3150 3450
+F 0 "#PWR?" H 3150 3200 50  0001 C CNN
+F 1 "GND" H 3150 3300 50  0000 C CNN
+F 2 "" H 3150 3450 60  0000 C CNN
+F 3 "" H 3150 3450 60  0000 C CNN
+	1    3150 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55CF718C
+P 3150 3850
+F 0 "#PWR?" H 3150 3600 50  0001 C CNN
+F 1 "GND" H 3150 3700 50  0000 C CNN
+F 2 "" H 3150 3850 60  0000 C CNN
+F 3 "" H 3150 3850 60  0000 C CNN
+	1    3150 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3450 3150 3450
+Wire Wire Line
+	3000 3850 3150 3850
+$Comp
+L GND #PWR?
+U 1 1 55CF7228
+P 3150 4150
+F 0 "#PWR?" H 3150 3900 50  0001 C CNN
+F 1 "GND" H 3150 4000 50  0000 C CNN
+F 2 "" H 3150 4150 60  0000 C CNN
+F 3 "" H 3150 4150 60  0000 C CNN
+	1    3150 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55CF7257
+P 2350 4450
+F 0 "#PWR?" H 2350 4200 50  0001 C CNN
+F 1 "GND" H 2350 4300 50  0000 C CNN
+F 2 "" H 2350 4450 60  0000 C CNN
+F 3 "" H 2350 4450 60  0000 C CNN
+	1    2350 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4150 3150 4150
+Wire Wire Line
+	2500 4450 2350 4450
+$Comp
+L GND #PWR?
+U 1 1 55CF7347
+P 3150 4650
+F 0 "#PWR?" H 3150 4400 50  0001 C CNN
+F 1 "GND" H 3150 4500 50  0000 C CNN
+F 2 "" H 3150 4650 60  0000 C CNN
+F 3 "" H 3150 4650 60  0000 C CNN
+	1    3150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55CF7376
+P 3150 4850
+F 0 "#PWR?" H 3150 4600 50  0001 C CNN
+F 1 "GND" H 3150 4700 50  0000 C CNN
+F 2 "" H 3150 4850 60  0000 C CNN
+F 3 "" H 3150 4850 60  0000 C CNN
+	1    3150 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4850 3150 4850
+Wire Wire Line
+	3000 4650 3150 4650
 $EndSCHEMATC
