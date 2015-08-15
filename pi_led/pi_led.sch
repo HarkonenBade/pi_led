@@ -1,4 +1,33 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
 LIBS:pi_led-cache
 EELAYER 25 0
 EELAYER END
@@ -41,7 +70,7 @@ L Q_NMOS_GDS Q3
 U 1 1 55CE53C0
 P 7550 3000
 F 0 "Q3" H 7850 3050 50  0000 R CNN
-F 1 "Q_NMOS_GDS" H 8200 2950 50  0001 R CNN
+F 1 "STP16NF06L" H 8200 2950 50  0001 R CNN
 F 2 "Transistors_TO-220:TO-220_Neutral123_Horizontal" H 7750 3100 29  0001 C CNN
 F 3 "" H 7550 3000 60  0000 C CNN
 F 4 "SC11129" H 7550 3000 60  0001 C CNN "Farnell"
@@ -122,7 +151,7 @@ L Q_NMOS_GDS Q2
 U 1 1 55CE612D
 P 6450 3000
 F 0 "Q2" H 6750 3050 50  0000 R CNN
-F 1 "Q_NMOS_GDS" H 7100 2950 50  0001 R CNN
+F 1 "STP16NF06L" H 7100 2950 50  0001 R CNN
 F 2 "Transistors_TO-220:TO-220_Neutral123_Horizontal" H 6650 3100 29  0001 C CNN
 F 3 "" H 6450 3000 60  0000 C CNN
 F 4 "SC11129" H 6450 3000 60  0001 C CNN "Farnell"
@@ -161,7 +190,7 @@ L Q_NMOS_GDS Q1
 U 1 1 55CE65B4
 P 5350 3000
 F 0 "Q1" H 5650 3050 50  0000 R CNN
-F 1 "Q_NMOS_GDS" H 6000 2950 50  0001 R CNN
+F 1 "STP16NF06L" H 6000 2950 50  0001 R CNN
 F 2 "Transistors_TO-220:TO-220_Neutral123_Horizontal" H 5550 3100 29  0001 C CNN
 F 3 "" H 5350 3000 60  0000 C CNN
 F 4 "SC11129" H 5350 3000 60  0001 C CNN "Farnell"
