@@ -3,9 +3,9 @@
   (general
     (links 27)
     (no_connects 0)
-    (area 89.924999 59.788379 142.1482 112.755)
+    (area 89.924999 59.924999 140.075001 110.075001)
     (thickness 1.6)
-    (drawings 11)
+    (drawings 12)
     (tracks 42)
     (zones 0)
     (modules 13)
@@ -708,6 +708,9 @@
       (xy -2.6855 -0.124915) (xy -2.518834 -0.127) (xy -2.276426 -0.120511)) (layer F.SilkS) (width 0.01))
   )
 
+  (gr_text "Pi-LED v0.1\n15/08/15\nHark <boards@harkonen.net>" (at 127 91.948 90) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_arc (start 92 108) (end 92 110) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 138 108) (end 140 108) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 140 108) (end 140 62) (angle 90) (layer Edge.Cuts) (width 0.15))
